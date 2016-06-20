@@ -1,0 +1,28 @@
+﻿<html>
+    <head>
+		<script type="text/javascript">
+            function getParameter(name){
+                name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+                var regexS = "[\\?&]"+name+"=([^&#]*)";
+                var regex = new RegExp( regexS );
+                var results = regex.exec( window.location.href );
+                if( results == null )
+                    return "";
+                else
+                    return results[1];
+            }
+        </script>
+		<link rel="stylesheet" type="text/css" href="css/notification.css" />	
+    </head>
+    <body>
+        <div class="news-box">
+			<!--<div id="title">أذكار المسلم</div>-->
+            <div style="width:300px;">
+                <div id="message">  </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            document.getElementById("message").innerHTML=decodeURIComponent(getParameter('message'));
+        </script>
+    </body>
+</html>

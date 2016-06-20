@@ -1,0 +1,28 @@
+﻿@font-face {
+	font-family: 'Rabat';
+    src: url('./font/Rabat.otf');
+}
+body{
+	background:white;
+}
+#message{
+	direction:rtl;
+	font-family: 'Rabat';
+	float:right;
+	margin-top:5px;
+	margin-left: 20px;
+	font-weight:normal;
+	font-size:15px;
+	color:black; 
+	text-align:right;
+	font-weight: bold;
+}
+#title{
+	direction:rtl;
+	font-size:11px;
+	font-weight: bold;
+}
+div.news-box{
+	direction:rtl;
+	float:right;
+}

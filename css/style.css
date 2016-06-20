@@ -1,0 +1,101 @@
+﻿@font-face {
+	font-family: 'Rabat';
+    src: url('./font/Rabat.otf');
+}
+body{
+  direction: rtl;
+  background: #F0F0F0;
+}
+#popup{
+	background: lightgray;
+}
+#option{
+	margin: auto 350px;
+}
+#content{
+  border: 1px solid #65AFE1;
+  padding: 25px 25px 25px 0px;
+  margin-top: 30px;
+  background:rgba(204, 204, 204, .4);
+  -webkit-border-radius : 10px;
+}
+ol{
+  direction: rtl;
+  margin: 0 auto;
+}
+h2{
+	border: 1px solid #DDD;
+	-webkit-border-radius: 6px;
+	color: #666;
+	font-family: 'Rabat';
+}
+li.list_item{
+	padding-top: 10px;
+	font-weight: 700;
+	font-family: 'Rabat';
+}
+label{
+	font-weight: 700;
+	text-align:justify;
+	font-family: 'Rabat';
+}
+#text{
+	margin-top: 10px;
+	-webkit-border-radius: 5px;
+	border: 1px solid #CCC;
+	padding:5px;
+	background-color: #FBFBFB;
+	-webkit-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+	font: -webkit-big-control;
+}
+.button{
+	background-image: url(../images/commentbuttonsprite.png);
+ 	background-position: 0 -4px;
+	border: none;
+	width: 98px;
+	height: 28px;
+	display: inline;
+	line-height: 25px;
+	text-align: center;
+	font-family: segoe ui;
+	color: white;
+	font-weight: bold;
+	font-size: 14px;
+	margin: 7px;
+	font-family: 'Rabat';
+}
+div.main_container{
+	width:400px;
+	float:right;
+	height: 136px;
+	
+}
+div.box_popup{
+	width:580;
+	margin:0 auto;
+	/*border:1px #65AFE1 solid;*/
+	border:1px black solid;
+	-webkit-border-radius: 10px;
+	text-align:right;
+	margin-top:35px;
+	padding-right:10px;
+	padding-left:5px;
+	font-family: 'Rabat';
+	font-weight: 700;
+	font-size:15px;
+	background:white;
+}
+a.another{
+	/*background:url(../images/another.png);*/
+	width: 107px;
+	height: 35px;
+	position: relative;
+	font-weight: bold;
+	z-index: 4;
+	top: 7px;
+	float: right;
+	right: 7px;
+	cursor: pointer;
+	font-family: 'Rabat';
+	color:gray;
+}
